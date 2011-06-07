@@ -1,0 +1,3 @@
+#!/bin/bash
+
+php -d implicit_flush=off -r "$1"'; for ($i=0; $i<5; $i++) { $t=microtime(true); for ($j=0; $j<1000; $j++) { '"$2"'; } printf("%.6f\n",  microtime(true)-$t); }'
